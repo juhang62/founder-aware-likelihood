@@ -1,0 +1,9 @@
+# Versions used for the initial pilot; Python 3.10.
+numpy==2.2.6
+scipy==1.15.3
+numba==0.67.0
+matplotlib==3.10.9
+# Additional dependency for the residual-moment precision check.
+mpmath==1.3.0
+# Enforce one numerical thread per Mconst worker.
+threadpoolctl==3.6.0

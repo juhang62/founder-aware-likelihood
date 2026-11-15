@@ -1,0 +1,12 @@
+{
+  "experiment": "residual-moment-check",
+  "truth": [0.8, 0.5],
+  "bounds": [[0.3, 1.1], [0.3, 1.1]],
+  "switching": [0.6, 0.4],
+  "founders": [1, 50],
+  "times": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23],
+  "decimal_precision": 60,
+  "refined_decimal_precision": 90,
+  "precision_relative_tolerance": "1e-40",
+  "identity_relative_tolerance": "1e-60"
+}

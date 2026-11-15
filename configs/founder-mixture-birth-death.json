@@ -1,0 +1,106 @@
+{
+  "experiment": "founder-mixture-birth-death",
+  "master_seed": 20261017,
+  "truth": [
+    0.8,
+    0.5
+  ],
+  "switching": [
+    0.6,
+    0.4
+  ],
+  "bounds": [
+    [
+      0.3,
+      1.1
+    ],
+    [
+      0.3,
+      1.1
+    ]
+  ],
+  "measurement_variance": 4.0,
+  "founders": [
+    1,
+    50
+  ],
+  "times": [
+    9.0,
+    11.0
+  ],
+  "cultures_per_cell": 10,
+  "smoke_cultures_per_cell": 10,
+  "smoke_replicates": 2,
+  "screen_cultures_per_cell": 500,
+  "inference_replicates": 20,
+  "extended_replicates": 100,
+  "moment_check_cultures": 10000,
+  "population_cap": 50000000,
+  "integration": {
+    "tail_probability": 1e-10,
+    "rtol": 2e-07,
+    "atol": 1e-10,
+    "max_depth": 18
+  },
+  "tight_integration": {
+    "tail_probability": 1e-12,
+    "rtol": 2e-10,
+    "atol": 1e-13,
+    "max_depth": 22
+  },
+  "optimization": {
+    "grid_size": 7,
+    "starts": 5,
+    "ftol": 1e-10,
+    "gtol": 2e-05,
+    "maxiter": 300
+  },
+  "tight_optimization": {
+    "grid_size": 13,
+    "starts": 10,
+    "ftol": 1e-13,
+    "gtol": 2e-07,
+    "maxiter": 600
+  },
+  "profiles": {
+    "cutoff": 2.705543,
+    "grid_size": 81,
+    "nuisance_grid_size": 15,
+    "xtol": 1e-05
+  },
+  "refinement": {
+    "observations_per_founder": 20,
+    "fits_per_founder": 5,
+    "log_density_target": 0.001,
+    "dataset_loglik_target": 0.05,
+    "estimate_target": 0.005
+  },
+  "death": [
+    0.1,
+    0.1
+  ],
+  "methods": [
+    "G",
+    "EG",
+    "M",
+    "M0"
+  ],
+  "maximum_delivery": 1,
+  "execution": {
+    "max_workers": 4,
+    "stage_wall_hours": 24
+  },
+  "extinction": {
+    "rtol": 1e-10,
+    "atol": 1e-12,
+    "iteration_tolerance": 1e-13,
+    "max_iterations": 10000
+  },
+  "tight_extinction": {
+    "rtol": 1e-12,
+    "atol": 1e-14,
+    "iteration_tolerance": 2e-15,
+    "max_iterations": 20000
+  },
+  "moment_check_cultures_many_founders": 500
+}

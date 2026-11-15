@@ -1,0 +1,20 @@
+{
+  "extension": "Mconst",
+  "baseline_config": "configs/founder-mixture-birth-death.json",
+  "baseline_sha256": "ed29000b9cad2c16f2a5b68b81d4e1489c13d42320be94fe241e528f07c5a8ab",
+  "baseline_revision": "e67846af27ccf9ceba574fc228350915372d9dd7",
+  "replicates": 100,
+  "variance_grid_size": 9,
+  "tight_variance_grid_size": 17,
+  "variance_expansion_factor": 10,
+  "variance_bound_margin": 0.05,
+  "bootstrap_stage": 61,
+  "bootstrap_repetitions": 2000,
+  "execution": {
+    "max_workers": 2,
+    "numerical_threads": 1,
+    "stage_wall_hours": 24,
+    "extinction_solver": "scipy-ode-dop853-numba-rhs-v1",
+    "checkpoint_format": 1
+  }
+}

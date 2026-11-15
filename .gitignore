@@ -1,0 +1,16 @@
+# Generated datasets, fits, profiles, and caches
+data/
+
+# Outputs of paper/build_assets.py
+paper/figures/
+paper/tables/
+paper/asset-manifest.json
+
+# Optional local copy of a reference article (not redistributed)
+references/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
